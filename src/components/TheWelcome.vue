@@ -4,7 +4,7 @@
 
 <template>
   <main>
-    <form name="contact" netlify method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" netlify>
       <div class="relative mb-4">
         <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
         <input type="text" id="name" name="name"
